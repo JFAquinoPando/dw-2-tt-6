@@ -1,0 +1,39 @@
+h1{
+    color: tomato;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#test1{
+    background-color: yellow;
+    font-size: 36px;
+}
+
+
+.saludo{
+    display: block;
+    background-color: rgb(92, 162, 1);
+}
+
+div{
+    padding: 10px 15px;
+}
+
+div p {
+    font-size: 40px;
+    background-color: cadetblue;
+}
+
+p span.apellido1,
+h1#apellido1 {
+    color: indigo;
+}
+
+hr + div.saludo{
+    background-color: red;
+}
+
+div.saludo{
+    border: 5px solid rebeccapurple;
+}
